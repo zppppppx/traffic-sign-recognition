@@ -1,0 +1,13 @@
+run:
+    error_rate_template.py:对模板匹配正确率统计
+    hog_recognize.py:利用支持向量机进行图标识别主体函数
+    main.py:可在电脑端运行进行演示
+    main_move.py:在树莓派端运行
+    sudu.py:控制小车运动的函数类
+    template_recognize.py:完成利用模板匹配法对传入图标进行识别的功能
+svm_train:
+    svm_train_new.py:对data下图像利用生成的hog.txt数据进行训练
+    speed_svm.py:利用SVM训练speed图标的文件
+    region_proposal_producer.py:利用标签文件对图像进行切割
+    process.py:可以对一类图标重命名为具有同样前缀名称，存储在temp下
+    hog_extract.py:hog特征提取
